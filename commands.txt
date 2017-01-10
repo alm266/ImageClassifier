@@ -1,0 +1,11 @@
+python dataClassifier.py -c perceptron -f -d digits
+python dataClassifier.py -c perceptron -f  -d faces
+python dataClassifier.py -d digits -c mira -f -a
+python dataClassifier.py -d digits -c mira -f   
+python dataClassifier.py -d faces -c mira -f -a
+python dataClassifier.py -d faces -c mira -f 
+python dataClassifier.py -d digits -c naiveBayes -f -a
+python dataClassifier.py -d digits -c naiveBayes -f   
+python dataClassifier.py -d faces -c naiveBayes -f -a
+python dataClassifier.py -d faces -c naiveBayes -f 
+
